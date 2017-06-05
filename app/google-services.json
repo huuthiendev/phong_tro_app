@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "815459272609",
+    "firebase_url": "https://app-phong-tro.firebaseio.com",
+    "project_id": "app-phong-tro",
+    "storage_bucket": "app-phong-tro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815459272609:android:1632e48c4c9be21d",
+        "android_client_info": {
+          "package_name": "com.project.huuthiendev.demophongtro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815459272609-5ca6qjvfk1i671k0l9r47024dfv404js.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.huuthiendev.demophongtro",
+            "certificate_hash": "F6A0F03C876DE1878752291DB1D564D95766789C"
+          }
+        },
+        {
+          "client_id": "815459272609-9k01doetc30gol3ls1iv8q3h52kb2vq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT5gNbz313TTolxICyqZSAoua25C6b4EA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815459272609-9k01doetc30gol3ls1iv8q3h52kb2vq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_timeline"
+        icon="@drawable/ic_access_time_grey_700_36dp" />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/ic_location_on_grey_700_36dp" />
+    <tab
+        id="@+id/tab_menu"
+        icon="@drawable/ic_menu_grey_700_36dp" />
+</tabs>

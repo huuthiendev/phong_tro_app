@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvPhongTro"
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/imgDaiDien"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/icon_mortgagecenter" />
+
+            <TextView
+                android:layout_toRightOf="@id/imgDaiDien"
+                android:id="@+id/tvTen"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Huỳnh Hữu Thiện" />
+
+            <TextView
+                android:textColor="#4b69cc"
+                android:layout_below="@id/tvTen"
+                android:layout_toRightOf="@id/imgDaiDien"
+                android:id="@+id/tvNgayDang"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày 15 Tháng 10 Năm 2016" />
+
+            <TextView
+                android:layout_below="@+id/tvDiaChi"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tvTitleGiaPhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá phòng: "
+                android:textSize="16dp"
+                android:textColor="#42539f" />
+
+            <TextView
+                android:layout_toRightOf="@id/tvTitleGiaPhong"
+                android:layout_below="@+id/tvDiaChi"
+                android:textStyle="bold"
+                android:id="@+id/tvGiaPhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.5 triệu"
+                android:textSize="18dp"
+                android:textColor="#2e9f23" />
+
+            <TextView
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#42539f"
+                android:id="@+id/tvDienTich"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:text="Diện tích: 1.5 mét vuông"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvGiaPhong" />
+
+            <ImageView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/imgHinh"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/phong_tro" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/tvDiaChi"
+                android:textSize="16dp"
+                android:textColor="#42539f"
+                android:singleLine="true"
+                android:text="Địa chỉ: 637/33, Quang Trung, Phường 11, Quận Gò Vấp, Thành Phố Hồ Chí Minh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgDaiDien" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
